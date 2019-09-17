@@ -6,7 +6,7 @@ To run the application, clone this repository into and IDE(i have used Eclipse v
 
 browse through com.sap.book, select Application.java class, right click and select run as --> Java Application.
 
-once the application is successfully started. The spring boot application will be running on "locahost:8080" and can be access by hitting the endpoint "localhost:8080/books" on a browser or via POSTMAN.
+once the application is successfully started. The spring boot application will be running on "locahost:8080" and can be accessed by hitting the endpoint "localhost:8080/books" on a browser or via POSTMAN.
 
 You can test the API via the  POSTMAN Client by sending GET, PUT, POST, DELETE request to validate the CRUD scenarios supported by the API.
 

@@ -1,0 +1,6 @@
+2019-09-13 17:28:04 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Table "BOOK" not found; SQL statement:
+select book0_.book_id as book_id1_0_, book0_.isbn as isbn2_0_, book0_.name as name3_0_ from book book0_ [42102-196]
+2019-09-13 17:30:47 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Table "BOOK_TEST" not found; SQL statement:
+select book0_.book_id as book_id1_0_, book0_.isbn as isbn2_0_, book0_.name as name3_0_ from book_test book0_ [42102-196]

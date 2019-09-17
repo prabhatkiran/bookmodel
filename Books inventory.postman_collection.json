@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "90f9a10a-2eca-8925-0bc9-6b469bc53b5c",
+		"name": "Books inventory",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/books",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"id\":3,\n\"isbn\":\"3333111\",\n\"name\":\"another book\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/books/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"books",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/books",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"bookId\":44,\n\n\"name\":\"My best book in the world\",\n\"isbn\":\"44isbn\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/books",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/books",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/books/44",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/books/44",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"books",
+						"44"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,5 +1,8 @@
 # bookmodel
-spring boot REST API for bookmodel. i.e a book a catalog
+spring boot REST API for bookmodel. i.e a book a catalog.
+
+The spring boot application exposes a fully RESTful service with Maturity Level: 3, i.e the REST api is self discoverable and exposes information about various operations possible at every endpoint.
+to read more about REST maturity model. Please refer https://martinfowler.com/articles/richardsonMaturityModel.html#level0
 
 
 To run the application, clone this repository into and IDE(i have used Eclipse version 2018-12 (4.10.0)) or download the repository as .zip --> extract the project and import it in your IDE.
